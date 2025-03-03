@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Alex Smith</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <link rel="shortcut icon" href="circle-user-solid.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <script src="https://kit.fontawesome.com/f2e896c20e.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-gradient-to-r from-purple-500 to-indigo-500 font-[Poppins]">
+  <main class="mx-20 mt-15 mb-5 bg-white rounded-4xl px-10 pt-6">
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center">
+      <div class="text-white bg-purple-600 w-12 h-12 flex items-center justify-center rounded-full text-lg font-bold">
+        A
+      </div>
+      <ul class="flex gap-6 text-gray-700 font-semibold">
+        <li><a href="#" class="hover:text-purple-600">About Me</a></li>
+        <li><a href="#" class="hover:text-purple-600">Portfolio</a></li>
+        <li><a href="#" class="hover:text-purple-600">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="flex flex-col lg:flex-row items-center max-w-5xl mx-auto px-6 py-20 lg:px-12">
+      <!-- Profile Image -->
+      <img src="img/main_photo.jpg" alt="Profile"
+        class="rounded-full shadow-xl w-48 h-48 lg:w-64 lg:h-64 object-cover" />
+
+      <!-- Hero Content -->
+      <div class="mt-6 lg:mt-0 lg:ml-12 text-center lg:text-left">
+        <p class="text-gray-400 text-lg">Web Designer</p>
+        <h1 class="text-4xl lg:text-5xl font-bold mt-2">Alex Smith</h1>
+        <p class="text-gray-600 mt-4 leading-relaxed">
+          Fusce tempor magna mi, non egestas velit ultricies nec. Aenean
+          convallis, risus non condimentum gravida, odio mauris ullamcorper
+          felis, ut venenatis purus ex eu mi.
+        </p>
+
+        <!-- Buttons -->
+        <div class="mt-6 flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 lg:space-x-4">
+          <a href="#"
+            class="px-6 py-3 text-blue-600 font-semibold border-2 border-blue-500 rounded-full hover:bg-blue-500 hover:text-white transition">
+            Download CV
+          </a>
+          <a href="#"
+            class="px-6 py-3 text-gray-700 font-semibold border-2 border-gray-300 rounded-full hover:bg-gray-300 transition">
+            Contact
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Interests -->
+    <section class="py-6 bg-white">
+      <div class="max-w-6xl mx-auto py-6 px-6">
+        <!-- Section Title -->
+        <h2 class="text-3xl font-bold text-gray-900 text-center">
+          Interests
+        </h2>
+        <div class="h-1 w-12 bg-blue-400 mb-8 mx-auto rounded-full"></div>
+
+        <!-- Services Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <!-- Service Item -->
+          <div class="flex space-x-4">
+            <div class="text-blue-500 text-3xl">
+              <i class="fa-solid fa-pen-ruler"></i>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold">Numerical Methods</h3>
+              <p class="text-gray-600">
+                Mauris neque libero, aliquet vel mollis nec, euismod sed
+                tellus. Mauris convallis dictum elit id volutpat.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex space-x-4">
+            <div class="text-blue-500 text-3xl">
+              <i class="fa-solid fa-atom"></i>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold">Theoretical Physics</h3>
+              <p class="text-gray-600">
+                Mauris neque libero, aliquet vel mollis nec, euismod sed
+                tellus. Mauris convallis dictum elit id volutpat.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex space-x-4">
+            <div class="text-blue-500 text-3xl">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold">Web Design</h3>
+              <p class="text-gray-600">
+                Mauris neque libero, aliquet vel mollis nec, euismod sed
+                tellus. Mauris convallis dictum elit id volutpat.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex space-x-4">
+            <div class="text-blue-500 text-3xl">
+              <i class="fa-solid fa-comment-dots"></i>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold">And More...</h3>
+              <p class="text-gray-600">
+                Mauris neque libero, aliquet vel mollis nec, euismod sed
+                tellus. Mauris convallis dictum elit id volutpat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publication -->
+    <section class="bg-white py-6">
+      <div class="max-w-5xl mx-auto px-6 lg:px-12">
+        <!-- Section Title -->
+        <h2 class="text-3xl font-bold text-gray-800 text-center">
+          Publications
+        </h2>
+        <div class="h-1 w-12 bg-blue-400 mx-auto rounded-full"></div>
+        <p class="text-gray-500 text-center mt-2">
+          Articles, research papers, and case studies I've authored.
+        </p>
+
+        <!-- Publications List -->
+        <div class="mt-8 space-y-6">
+          <!-- Publication Item -->
+          <div class="bg-gray-50 shadow-md rounded-lg p-6">
+            <h3 class="text-xl font-semibold text-gray-800">
+              The Future of UX Design
+            </h3>
+            <p class="text-gray-600 mt-1">
+              Published in <span class="font-medium">Design Journal</span>,
+              2024
+            </p>
+            <p class="text-gray-500 mt-2">
+              An in-depth analysis of emerging trends in user experience
+              design and how they shape digital interactions.
+            </p>
+            <a href="#" class="text-blue-600 font-medium mt-3 inline-block hover:underline">Read More →</a>
+          </div>
+
+          <div class="bg-gray-50 shadow-md rounded-lg p-6">
+            <h3 class="text-xl font-semibold text-gray-800">
+              Optimizing Web Performance with Tailwind CSS
+            </h3>
+            <p class="text-gray-600 mt-1">
+              Published in <span class="font-medium">Web Dev Weekly</span>,
+              2023
+            </p>
+            <p class="text-gray-500 mt-2">
+              A comprehensive guide on how Tailwind CSS improves page speed,
+              maintainability, and responsiveness.
+            </p>
+            <a href="#" class="text-blue-600 font-medium mt-3 inline-block hover:underline">Read More →</a>
+          </div>
+
+          <div class="bg-gray-50 shadow-md rounded-lg p-6">
+            <h3 class="text-xl font-semibold text-gray-800">
+              Building Accessible Web Applications
+            </h3>
+            <p class="text-gray-600 mt-1">
+              Published in <span class="font-medium">Frontend Monthly</span>,
+              2022
+            </p>
+            <p class="text-gray-500 mt-2">
+              A guide to designing inclusive digital experiences that follow
+              accessibility best practices.
+            </p>
+            <a href="#" class="text-blue-600 font-medium mt-3 inline-block hover:underline">Read More →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education and Work Experience -->
+    <section class="max-w-6xl mx-auto py-6 px-6">
+      <h2 class="text-3xl font-bold text-gray-800 text-center">Resume</h2>
+      <div class="h-1 w-12 bg-blue-400 mx-auto rounded-full"></div>
+      <p class="text-gray-500 text-center mt-2">8 Years of Experience</p>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-8">
+        <!-- Education -->
+        <div>
+          <h3 class="text-2xl font-bold mb-1">Education</h3>
+          <div class="h-1 w-12 bg-blue-500 mb-6"></div>
+
+          <div class="space-y-3">
+            <div class="bg-white rounded-lg border-blue-500 relative">
+              <div class="text-gray-500 text-sm">
+                <span
+                  class="border-2 text-blue-500 text-xs font-semibold px-2 py-0.5 mr-1 rounded-full inline-block">2009</span>
+                University of Studies
+              </div>
+              <div class="px-8 pb-6 pt-1">
+                <h3 class="font-bold text-lg mt-1">UI Design</h3>
+                <p class="text-gray-600 text-sm mt-1">
+                  Duis posuere, quam non imperdiet egestas, eros enim mattis
+                  mauris...
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white rounded-lg border-blue-500 relative">
+              <div class="text-gray-500 text-sm">
+                <span
+                  class="border-2 text-blue-500 text-xs font-semibold px-2 py-0.5 mr-1 rounded-full inline-block">2008</span>
+                University of Studies
+              </div>
+              <div class="px-8 pb-6 pt-1">
+                <h3 class="font-bold text-lg mt-1">Graphic Design</h3>
+                <p class="text-gray-600 text-sm mt-1">
+                  Duis posuere, quam non imperdiet egestas, eros enim mattis
+                  mauris...
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white rounded-lg border-blue-500 relative">
+              <div class="text-gray-500 text-sm">
+                <span
+                  class="border-2 text-blue-500 text-xs font-semibold px-2 py-0.5 mr-1 rounded-full inline-block">2007</span>
+                University of Studies
+              </div>
+              <div class="px-8 pb-6 pt-1">
+                <h3 class="font-bold text-lg mt-1">Frontend Development</h3>
+                <p class="text-gray-600 text-sm mt-1">
+                  Duis posuere, quam non imperdiet egestas, eros enim mattis
+                  mauris...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience -->
+        <div>
+          <h3 class="text-2xl font-bold mb-1">Experience</h3>
+          <div class="h-1 w-12 bg-blue-500 mb-6"></div>
+
+          <div class="space-y-3">
+            <div class="bg-white rounded-lg border-blue-500 relative">
+              <div class="text-gray-500 text-sm">
+                <span
+                  class="border-2 text-blue-500 text-xs font-semibold px-2 py-0.5 mr-1 rounded-full inline-block">2016 -
+                  Current</span>
+                Rolling Thunder
+              </div>
+              <div class="px-8 pb-6 pt-1">
+                <h3 class="font-bold text-lg mt-1">Lead UI/UX Designer</h3>
+                <p class="text-gray-600 text-sm mt-1">
+                  Praesent dignissim sollicitudin justo, sed elementum quam...
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white rounded-lg border-blue-500 relative">
+              <div class="text-gray-500 text-sm">
+                <span
+                  class="border-2 text-blue-500 text-xs font-semibold px-2 py-0.5 mr-1 rounded-full inline-block">2013 -
+                  2016</span>
+                Locost Accessories
+              </div>
+              <div class="px-8 pb-6 pt-1">
+                <h3 class="font-bold text-lg mt-1">Senior UI/UX Designer</h3>
+                <p class="text-gray-600 text-sm mt-1">
+                  Maecenas tempus faucibus rutrum...
+                </p>
+              </div>
+            </div>
+
+            <div class="bg-white rounded-lg border-blue-500 relative">
+              <div class="text-gray-500 text-sm">
+                <span
+                  class="border-2 text-blue-500 text-xs font-semibold px-2 py-0.5 mr-1 rounded-full inline-block">2011 -
+                  2013</span>
+                Sagebrush
+              </div>
+              <div class="px-8 pb-6 pt-1">
+                <h3 class="font-bold text-lg mt-1">Junior UI/UX Designer</h3>
+                <p class="text-gray-600 text-sm mt-1">
+                  Duis mollis nunc quis quam viverra venenatis...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="bg-white py-6 pb-12">
+      <div class="max-w-5xl mx-auto px-6 lg:px-12">
+        <!-- Section Title -->
+        <h2 class="text-3xl font-bold text-gray-800 text-center">Skills</h2>
+        <div class="h-1 w-12 bg-blue-400 mx-auto rounded-full"></div>
+        <p class="text-gray-500 text-center mt-2">
+          Some of the technologies and tools I specialize in.
+        </p>
+
+        <!-- Skills Grid -->
+        <div class="mt-8 grid grid-cols-2 lg:grid-cols-3 lg:grid-cols-4 gap-6 text-center">
+          <!-- Skill Item -->
+          <div class="bg-white shadow-md rounded-lg p-4">
+            <i class="fa-brands fa-html5 fa-2xl pt-6"></i>
+            <!-- <img src="html-icon.png" alt="HTML" class="w-12 h-12 mx-auto" /> -->
+            <p class="text-gray-700 font-medium mt-2">HTML</p>
+          </div>
+
+          <div class="bg-white shadow-md rounded-lg p-4">
+            <i class="fa-brands fa-css3-alt fa-2xl pt-6"></i>
+            <p class="text-gray-700 font-medium mt-2">CSS</p>
+          </div>
+
+          <div class="bg-white shadow-md rounded-lg p-4">
+            <i class="fa-brands fa-js fa-2xl pt-6"></i>
+            <p class="text-gray-700 font-medium mt-2">JavaScript</p>
+          </div>
+
+          <div class="bg-white shadow-md rounded-lg p-4">
+            <i class="fa-brands fa-react fa-2xl pt-6"></i>
+            <p class="text-gray-700 font-medium mt-2">React</p>
+          </div>
+
+          <div class="bg-white shadow-md rounded-lg p-4">
+            <i class="fa-brands fa-vuejs fa-2xl pt-6"></i>
+            <p class="text-gray-700 font-medium mt-2">Tailwind CSS</p>
+          </div>
+
+          <div class="bg-white shadow-md rounded-lg p-4">
+            <i class="fa-brands fa-node fa-2xl pt-6"></i>
+            <p class="text-gray-700 font-medium mt-2">Node.js</p>
+          </div>
+
+          <div class="bg-white shadow-md rounded-lg p-4">
+            <i class="fa-brands fa-figma fa-2xl pt-6"></i>
+            <p class="text-gray-700 font-medium mt-2">Figma</p>
+          </div>
+
+          <div class="bg-white shadow-md rounded-lg p-4">
+            <i class="fa-brands fa-git-alt fa-2xl pt-6"></i>
+            <p class="text-gray-700 font-medium mt-2">Git</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer clearfix">
+    <div class="footer-social">
+      <ul class="flex gap-4 justify-center text-gray-200">
+        <li>
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-qq"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-weixin"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="text-center text-gray-200 py-4">
+      © 2020 All rights reserved. Designed by Junyuan.
+    </div>
+  </footer>
+  <!-- /Footer -->
+</body>
+
+</html>
